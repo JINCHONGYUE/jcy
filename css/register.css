@@ -1,0 +1,52 @@
+/*整体位置*/
+div.register-all{
+	width:1200px;
+	height:600px;
+	margin:0 auto;
+	position:relative;
+}
+/*填写内容*/
+div.register-all div.register-a1{
+	width:500px;
+	height:550px;
+	position:absolute;
+	left:400px;
+	top:45px;
+}
+div.register-all div.register-a1 div.register-up p{
+	font-size:23px;
+	display:inline-block;
+	margin-bottom:35px;
+	height:35px;
+	width:100px;
+	line-height:35px;
+	/* margin-left:180px; */
+}
+input.register-en{
+	width:200px;
+	height:25px;
+}
+#btn1{
+	width:100px;
+	height:30px;
+	font-size:16px;
+	border-radius:2px;
+	margin-left:90px;
+	background:#FFFFFF;
+}
+div.register-all div.register-a1 div.register-up a img{
+	/* margin-left:180px; */
+	display:inline-block;
+}
+div.register-a{
+	margin-left:30px;
+	/* padding-top:20px; */
+	width:500px;
+	height:440px;
+	/* border:2px solid #858585; */
+}
+div.register-a p{
+/*	display:block;*/
+	font-size:16px;
+	color:gray;
+}

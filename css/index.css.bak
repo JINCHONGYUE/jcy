@@ -1,0 +1,312 @@
+/*banner广告图的样式*/
+#banner{
+	margin-top:33px;
+    width:1200px;
+    height:500px;
+    overflow:hidden;
+    position:relative;
+}
+#banner ul.banner-img{
+    position:absolute; 
+	left:0;
+}
+#banner ul.banner-img>li{float:left;width:1200px;}
+#banner ul.banner-img img{
+    width:1200px;
+    height:500px;
+}
+#banner a.ck-slide{
+    position:absolute;
+    top:215px;
+    width:35px;
+    height:70px;
+    border-radius:3px;
+    background:#000;
+    opacity:0.3;
+    transition:all .3s linear;
+}
+#banner a.ck-left{
+    left:5px;
+    background: #000 url(../img/index/arrow-left.png) no-repeat center center;
+}
+#banner a.ck-right{
+    right:5px;
+    background:#000 url(../img/index/arrow-right.png) no-repeat center center;
+}
+#banner a.ck-slide:hover{
+    opacity:0.3;
+}
+#banner ul.indicators{
+    position:absolute;
+    bottom:10px;
+    left:50%;
+    margin-left:-34px;
+}
+#banner ul.indicators li{
+    width:12px;
+    height:12px;
+    background:#fff;
+    border-radius:50%;
+    float:left;
+    margin-right:5px;
+    transition:all .2s linear;
+}
+#banner ul.indicators li:hover,#banner ul.indicators li.hover{
+    cursor:pointer;
+    background-color:#0AA1ED;
+}
+
+
+/* 我们的优势 */
+div.advantge{
+	margin:0;
+	margin-top:55px;
+	text-align:center;
+}
+div.advantge p:first-child{
+	margin:0;
+	color:#323232;
+	font-size:23px;
+	font-family:"Arial";
+}
+div.advantge p:nth-child(2){
+	margin:0;
+	font-family:"italic";
+	font-size:28px;
+	margin:10px 0;
+}
+div.advantge p:last-child{
+	margin:0;
+	color:#858585;
+	font-size:18px;
+}
+
+
+/* 教学环境、教学设备、师资力量 */
+div.about ul li a>img{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	border:10px solid #F99700;
+	transition:all .5s linear;
+}
+div.about ul li a>img:hover{
+	transform:scale(1.1);
+}
+div.about{
+	margin-top:20px;
+	display:flex;
+	justify-content:space-around; 
+}
+div.about ul li:nth-child(2){
+	margin-top:20px;
+	margin-left:75px;
+	font-size:20px;
+	font-family:"微软雅黑";
+}
+div.about ul li:nth-child(3){
+	font-family:"微软雅黑";
+	color:#858585;
+	width:200px;
+	padding:20px;
+}
+/* 第二章大图 */
+div.two-big-img>img{
+	margin-top:0;
+	margin-bottom:0;
+	width:1200px;
+	height:500px;
+}
+/* 学生风采 */
+div.student{
+	width:1200px;
+	height:750px;
+	margin:0;
+	text-align:center;
+	background:#F5F5F5;
+	
+}
+div.student div.student-fonts p:first-child{
+	padding-top:35px;	
+	color:#323232;
+	font-size:19px;
+	font-family:"Arial";
+}
+div.student div.student-fonts p:nth-child(2){
+	margin-top:5px;
+	margin-bottom:5px;
+	color:#323232;
+	font-size:28px;
+	font-family:"Arial";
+}
+div.student div.student-fonts p:nth-child(3){
+	color:#858585;
+	font-size:18px;
+	font-family:"Arial";
+	margin-bottom:30px;
+}
+/* 学生风采图片*/
+div.student div.student-pic{
+	background:#FFFFFF;
+	width:860px;
+	height:560px;
+	margin:0 auto;
+	display:flex;	
+	flex-wrap:wrap;
+	justify-content:center;
+	padding:5px;
+}
+div.student .student-pic a img{
+	margin-top:5px;
+	margin-bottom:0;
+	padding:5px;
+	transition:all 0.5s linear;
+}
+div.student .student-pic a img:hover{
+	transform:scale(1.1);
+	border:1px solid #F2E299;
+}
+/* 我们的承诺 */
+div.commitment{
+	margin:0;
+	text-align:center;
+}
+div.commitment p:first-child{
+	padding-top:35px;	
+	color:#323232;
+	font-size:19px;
+	font-family:"Arial";
+}
+div.commitment p:nth-child(2){
+	margin-top:5px;
+	margin-bottom:5px;
+	color:#323232;
+	font-size:25px;
+	font-family:"Arial";
+}
+/* 我们的承诺 图片*/
+div.commitment-pic{
+	margin-left:175px;
+	display:flex;
+	margin-top:20px;
+	justify-content:center;
+}
+div.commitment-pic ul li:nth-child(2){
+	margin-top:20px;
+ 	margin-left:37px;  
+}
+div.commitment-pic ul li:nth-child(3){
+	margin-right:125px;
+	margin-top:15px;
+	width:200px;
+	color:#858585;
+	font-size:13px;
+	font-family:"Arial";
+}
+/* 企业荣誉 */
+div.honor{
+	margin-top:35px;
+	text-align:center;
+}
+div.honor p:nth-child(1){	
+	margin-bottom:5px;
+	color:#323232;
+	font-size:19px;
+	font-family:"Arial";
+}
+div.honor p:nth-child(2){
+/* 	margin-bottom:5px; */
+	color:#323232;
+	font-size:25px;
+	font-family:"Arial";
+}
+/* 企业荣誉 图片 */
+#honor{
+	position:relative;
+}
+#honor ul.honor-img{	
+	width:800px;
+	height:130px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-bottom:33px;
+	display:flex;
+	
+}
+#honor ul.honor-img>li img{
+	width:200px;
+	height:130px;
+	transition:all .3s linear;
+}
+#honor ul.honor-img>li img:hover{
+	transform:scal
+}
+#banner a.ck-lf{
+    left:5px;
+    background: #000 url(../img/index/arrow-left.png) no-repeat center center;
+}
+/*#banner a.ck-right{*/
+/*    right:5px;*/
+/*    background:#000 url(../img/index/arrow-right.png) no-repeat center center;*/
+/*}*/
+/*#banner a.ck-slide:hover{*/
+/*    opacity:0.3;*/
+/*}*/
+/*#banner ul.indicators{*/
+/*    position:absolute;*/
+/*    bottom:10px;*/
+/*    left:50%;*/
+/*    margin-left:-34px;*/
+/*}*/
+/*#banner ul.indicators li{*/
+/*    width:12px;*/
+/*    height:12px;*/
+/*    background:#fff;*/
+/*    border-radius:50%;*/
+/*    float:left;*/
+/*    margin-right:5px;*/
+/*    transition:all .2s linear;*/
+/*}*/
+/*#banner ul.indicators li:hover,#banner ul.indicators li.hover{*/
+/*    cursor:pointer;*/
+/*    background-color:#0AA1ED;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div.honor-pic{*/
+/*	width:500px;*/
+/*	margin:0 auto;	*/
+/*}*/
+/*div.honor-pic{*/
+/*	display:flex;*/
+/*	justify-content:space-between;*/
+/*	flex-wrap:wrap;*/
+/*	*/
+/*}*/
+/*div.honor-pic a img{*/
+/*	width:156px;*/
+/*	height:102px;*/
+/*	margin-top:35px;*/
+/*	margin-bottom:35px;*/
+/*}*/

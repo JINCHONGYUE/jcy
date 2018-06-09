@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/index.css">
+ </head>
+ <body>
+	<!--头部-->
+	
+	<div id="total">
+		<iframe src="header.html" frameborder="0" id="header"></iframe>	
+	<!--身体-->
+	<!--1-->
+	<!--2 关于我们-->
+	<!--3 画的种类-->
+	<div id="banner">
+	    <!--1.大图的显示-->
+		<ul class="banner-img" data-load="bannerImgs">
+
+
+
+<!-- 		  <li> -->
+<!-- 		    <a href="#"> -->
+<!-- 			  <img src="img/index/banner1.jpg" class="show"> -->
+<!-- 			</a> -->
+<!-- 		  </li> -->
+<!-- 		  <li> -->
+<!-- 		    <a href="#"> -->
+<!-- 			  <img src="img/index/banner2.jpg"> -->
+<!-- 			</a> -->
+<!-- 		  </li> -->
+<!-- 		  <li> -->
+<!-- 		    <a href="#"> -->
+<!-- 			  <img src="img/index/banner3.jpg"> -->
+<!-- 			</a> -->
+<!-- 		  </li> -->
+<!-- 		  <li> -->
+<!-- 		    <a href="#"> -->
+<!-- 			  <img src="img/index/banner4.png"> -->
+<!-- 			</a> -->
+<!-- 		  </li> -->
+		</ul>
+		<!--2.左右箭头按钮-->
+		<a href="javascript:;" class="ck-slide ck-left" data-move="left"></a>
+		<a href="javascript:;" class="ck-slide ck-right" data-move="right"></a>
+		<!--3. 4个圆点指示器-->
+       <ul class="indicators" data-load="bannerInds">
+		   <li class="active show"></li>
+		   <li></li>
+		   <li></li>
+		   <li></li>
+		</ul>
+	   </div>
+
+<!-- 我们的优势 -->
+		<div class="advantge">
+			<p>ADVANTGE</p>
+			<P>我们的优势</P>
+			<p>选择我们进入绘画世界</p>
+		</div>
+
+<!-- 教学环境、教学设备、师资力量 -->
+		<div class="about">
+			<ul>
+				<li><a href=""><img src="img/advantage/studio.jpg" alt=""></a></li>
+				<li>教学环境</li>
+				<li>提供专业的练习厅、实训厅</li>
+			</ul>
+			<ul>
+				<li><a href=""><img src="img/advantage/instrument.jpg" alt=""></a></li>
+				<li>教学设备</li>
+				<li>学员所用画图工具都有良好的品质保证！</li>
+			</ul>
+			<ul>
+				<li><a href=""><img src="img/advantage/teacher.jpg" alt=""></a></li>
+				<li>师资力量</li>
+				<li>我们的培训老师都是专职，且有5年以上的教育经验！</li>
+			</ul>
+		</div>
+<!-- 第二章大图 -->
+		<div class="two-big-img">
+			<img src="img/500470792.jpg" alt="">
+		</div>
+<!-- 学生风采 -->
+		<div class="student">			
+			<ul>
+				<li>Students' demeanor</li>
+				<li>学生风采</li>
+				<li>来领略学生的风采</li>
+			</ul>
+			<div class="student-pic">
+				<ul>
+					<li><img src="img/学生风采/1.jpg" alt=""></li>
+					<li><img src="img/学生风采/2.jpg" alt=""></li>
+					<li><img src="img/学生风采/3.jpg" alt=""></li>
+					<li><img src="img/学生风采/4.jpg" alt=""></li>
+					<li><img src="img/学生风采/5.jpg" alt=""></li>
+					<li><img src="img/学生风采/6.jpg" alt=""></li>
+				</ul>
+			</div>			
+		</div>
+<!-- 我们的承诺 -->
+		<div class="commitment">
+			<ul>
+				<li>Our commitment</li>
+				<li>我们的承诺</li>
+			</ul>	
+		</div>
+		<div class="commitment-pic">
+			<ul>
+				<li><img src="img/commitment/353535.png" alt=""></li>
+				<li>承诺退款</li>
+				<li>对首次购买的课程或服务不满意，可在开课(包括主修课和公开课)后30天,且上课少于12节情况下，向我们提出"无条件全额退款"申请。</li>
+			</ul>
+			<ul>
+				<li><img src="img/commitment/download8667.png" alt=""></li>
+				<li>服务承诺</li>
+				<li>付费后,每位学员都会签订购买协议，我们向学员保障服务水平。</li>
+			</ul>
+			<ul>
+				<li><img src="img/commitment/download36768.png" alt=""></li>
+				<li>师资承诺</li>
+				<li>一贯坚持"带学生画出国际标准"的教学理念，我们保证教师优质的教学水平</li>
+			</ul>			
+		</div>
+<!-- 企业荣誉 -->	
+		<div class="honor">
+			<ul>
+				<li>Corporate honor</li>
+				<li>企业荣誉</li>
+			</ul>
+		</div>
+<!-- 企业荣誉 图-->	
+		<div class="honor-pic">
+			<ul>
+				<li><img src="img/荣誉证书/1.jpg" alt=""></li>
+				<li><img src="img/荣誉证书/2.png" alt=""></li>
+				<li><img src="img/荣誉证书/3.png" alt=""></li>
+				<li><img src="img/荣誉证书/4.png" alt=""></li>
+				<li><img src="img/荣誉证书/5.png" alt=""></li>
+				<li><img src="img/荣誉证书/6.png" alt=""></li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+		
+
+
+
+
+</script>
+
+
+
+
+
+	<!--尾部-->	
+	<iframe src="footer.html" frameborder="0" id="footer"></iframe>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/index.js"></script>
+ </body>
+</html>

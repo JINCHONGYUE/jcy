@@ -1,0 +1,12 @@
+/* 头部插入样式 */
+#header{
+	width:1200px;
+	height:94.5px;
+	margin:0;
+}
+
+/* 尾部插入样式 */
+#footer{
+	width:100%;
+	height:95px;
+}

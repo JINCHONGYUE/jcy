@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>登录</title>
+	<link rel="stylesheet" href="css/login.css">
+	 <link rel="stylesheet" href="css/base.css">
+ </head>
+ <body>
+ <form action="data/02-login.php" method="post">
+    <div id="main">
+	 	<header id="header">
+<!-- 		<iframe src="header.html" frameborder="0" id="header"></iframe> -->
+	</header>
+	   <table></table>
+	   <div class="black">
+	      <table>
+		    <tr>
+			   <td>
+			      <h4>创意者工作室</h4>
+			   </td>
+			   <td align="right">
+			      <a href="01-register.html">新用户注册</a>
+			   </td>
+			</tr>
+		    <tr>
+			   <td colspan="2"><hr></td>
+			</tr>
+		    <tr>
+			   <td colspan="2" >
+			     <input type="text" id="uname" name="uname" placeholder="请输入您的用户名">
+			   </td>
+			</tr>
+		    <tr>
+			  <td colspan="2">
+			    <input type="password" id="upwd" name="upwd" placeholder="请输入您的密码">
+			  </td>
+			</tr>
+		    <tr>
+			  <td class="sp">
+			    <input type="checkbox">自动登录
+			  </td>
+			  <td align="right">
+			    <a href="#">忘记密码</a>
+			  </td>
+			</tr>
+		    <tr>
+			  <td colspan="2">
+			    <input type="submit" id="btn" value="登录">	
+			  </td>
+			</tr>
+		  </table>
+	   </div>
+	</div>
+	</form>
+	<footer id="footer">
+<!-- 	<iframe src="footer.html" frameborder="0" id="footer"></iframe> -->
+	</footer>
+	<script src="js/header.js"></script>
+	<script src="js/footer.js"></script>
+ </body>
+</html>

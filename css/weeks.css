@@ -1,0 +1,17 @@
+/*头下的大图*/
+div.total>div.weeks-pic img{
+	width:1200px;
+	height:550px;
+}
+div.weeks-detail div.weeks-cla ul img{
+	width:180px;
+	height:200px;
+}
+div.weeks-cla li{
+	width:1200px;
+	height:200px;
+	
+}
+div.weeks-cla li div{
+	float:left;
+}

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/teacher.css">
+ </head>
+ <body>
+    <div class="total">
+<!--头部-->
+			<header id="header">
+<!-- 		<iframe src="header.html" frameborder="0" id="header"></iframe> -->
+			</header>
+<!--大图-->
+			<div class="teacher"><img src="img/teacher.jpg" alt=""></div>
+<!--文字-->
+			<div class="team-itr">
+				<ul class="team">
+					<li>名师团队</li>
+					<li>教师人数超过3000人</li>
+					<li></li>
+				</ul>
+			</div>
+	<!--老师介绍-->
+			<ul class="teacher-intr clear">
+				<li class="teacher-intr-odd">
+					<div><img src="img/teacher/edfesdfgjh.jpg" alt=""></div>
+					<div>
+						<p>Josn cull</p>
+						<p>毕业院校:McGill University</p>
+						<p>Joshua老师来自印度，生于1987年，毕业于McGill University，拥有学士学位，及授课资格认证，曾经在英国、赛内加尔、波兰等国教书。他总是能使课堂气氛活跃起来，为小朋友创造一个快乐的学习环境。他总是能用自己的创造力、活力和热情鼓励小朋友，来报名吧~</p>
+					</div>
+				</li>
+				<li class="teacher-intr-even">
+					<div><img src="img/teacher/edvfasdgr.jpg" alt=""></div>
+					<div>
+						<p>Jimena M</p>
+						<p>毕业院校:California University</p>
+						<p>Jimena老师来自美国，生于1987年，毕业于University of Student California，已获得硕士学位。Jimena老师性格外向且充满活力，他有超过5年的绘画从教经历，曾教过非英语母语小学生学习绘画。教学之余，他喜欢跳舞、学习新语言、旅行。欢迎小朋友们的加入！</p>
+					</div>
+				</li>
+				<li  class="teacher-intr-odd">
+					<div><img src="img/teacher/sdgrhdtrj.jpg" alt=""></div>
+					<div>
+						<p>Joshua C</p>
+						<p>毕业院校:University Chicago</p>
+						<p>Joshua老师来自美国，生于1986年，毕业于University Chicago，获得硕士学位。Joshua老师性格外向且充满活力，他有超过两年的绘画从教经历，曾教过非英语母语小学生学习绘画。教学之余，他喜欢旅行，写作以及户外活动。想要加入Joshua老师的课堂就来约课吧！</p>
+					</div>
+				</li>
+				<li class="teacher-intr-even">
+					<div><img src="img/teacher/4.jpg" alt=""></div>
+					<div>
+						<p>Kailyn Z</p>
+						<p>毕业院校:诺瓦艺术与设计大学</p>
+						<p>Kailyn老师来自加拿大，生于1988年，毕业于诺瓦艺术与设计大学，获得硕士学位。在校任博士生导师，2016年起在多伦多任教。</p>
+					</div>
+				</li>
+				<li  class="teacher-intr-odd">
+					<div><img src="img/teacher/5.jpg" alt=""></div>
+					<div>
+						<p>张辉</p>
+						<p>毕业院校:中央美院</p>
+						<p>2010年入中央美院学习，获得硕士学位。2014年留校任教，2015年赴德国学习。2017年起，回国任教，2018年起至今，任中央美院一名教授。</p>
+					</div>
+				</li>
+			</ul>
+<!-- 		<div class="introduct">	 -->
+	<!-- 		<ul class="teacher-intr"> -->
+	<!-- 			<li><img src="img/teacher/edfesdfgjh.jpg" alt=""></li> -->
+	<!-- 			<li> -->
+	<!-- 				<ul> -->
+	<!-- 					<li class="font-name">Josn cull</li> -->
+	<!-- 					<li class="font-school">毕业院校:McGill University</li> -->
+	<!-- 					<li class="font-detail">Joshua老师来自印度，生于1987年，毕业于McGill University，拥有学士学位，及授课资格认证，曾经在英国、赛内加尔、波兰等国教书。他总是能使课堂气氛活跃起来，为小朋友创造一个快乐的学习环境。他总是能用自己的创造力、活力和热情鼓励小朋友，来报名吧~</li>					 -->
+	<!-- 				</ul> -->
+	<!-- 			</li> -->
+	<!-- 		</ul> -->
+	<!-- 		<ul class="teacher-intr-even">	 -->
+	<!-- 			<li> -->
+	<!-- 				<ul> -->
+	<!-- 					<li class="font-name">Jimena M</li> -->
+	<!-- 					<li class="font-school">毕业院校:California University</li> -->
+	<!-- 					<li class="font-detail">Jimena老师来自美国，生于1987年，毕业于University of Student California，已获得硕士学位。Jimena老师性格外向且充满活力，他有超过5年的绘画从教经历，曾教过非英语母语小学生学习绘画。教学之余，他喜欢跳舞、学习新语言、旅行。欢迎小朋友们的加入！ -->
+	<!-- 					</li> -->
+	<!-- 				</ul> -->
+	<!-- 			</li> -->
+	<!-- 			<li><img src="img/teacher/edvfasdgr.jpg" alt=""></li> -->
+	<!-- 		</ul> -->
+	<!-- 			<ul class="teacher-intr"> -->
+	<!-- 			<li><img src="img/teacher/sdgrhdtrj.jpg" alt=""></li> -->
+	<!-- 			<li> -->
+	<!-- 				<ul> -->
+	<!-- 					<li class="font-name">Joshua C</li> -->
+	<!-- 					<li class="font-school">毕业院校:University Chicago</li> -->
+	<!-- 					<li class="font-detail">Joshua老师来自美国，生于1986年，毕业于University Chicago，获得硕士学位。Joshua老师性格外向且充满活力，他有超过两年的绘画从教经历，曾教过非英语母语小学生学习绘画。教学之余，他喜欢旅行，写作以及户外活动。想要加入Joshua老师的课堂就来约课吧！ -->
+	<!-- 					</li> -->
+	<!-- 				</ul> -->
+	<!-- 			</li> -->
+	<!-- 		</ul> -->
+	<!-- 			<ul class="teacher-intr-even">		 -->
+	<!-- 			<li> -->
+	<!-- 				<ul> -->
+	<!-- 					<li class="font-name">Kailyn Z</li> -->
+	<!-- 					<li class="font-school">毕业院校:诺瓦艺术与设计大学</li> -->
+	<!-- 					<li class="font-detail">Kailyn老师来自加拿大，生于1988年，毕业于诺瓦艺术与设计大学，获得硕士学位。在校任博士生导师，2016年起在多伦多任教。 -->
+	<!-- 					</li> -->
+	<!-- 				</ul> -->
+	<!-- 			</li> -->
+	<!-- 			<li><img src="img/teacher/4.jpg" alt=""></li> -->
+	<!-- 		</ul> -->
+	<!-- 			<ul class="teacher-intr"> -->
+	<!-- 			<li><img src="img/teacher/5.jpg" alt=""></li> -->
+	<!-- 			<li> -->
+	<!-- 				<ul> -->
+	<!-- 					<li class="font-name">张辉</li> -->
+	<!-- 					<li class="font-school">毕业院校:中央美院</li> -->
+	<!-- 					<li> -->
+	<!-- 					2010年入中央美院学习，获得硕士学位。2014年留校任教，2015年赴德国学习。2017年起，回国任教，2018年起至今，任中央美院一名教授。 -->
+	<!-- 					</li> -->
+	<!-- 				</ul> -->
+	<!-- 			</li> -->
+	<!-- 		</ul> -->
+<!-- 		</div> -->
+	<!--插图-->	
+			<div class="teacher-down"><img src="img/img/500378384.jpg" alt=""></div>
+		</div>
+	<!--尾部-->	
+		<footer id="footer">
+	<!-- 	<iframe src="footer.html" frameborder="0" id="footer"></iframe> -->
+		</footer>
+			<script src="js/jquery-1.11.3.js"></script>
+			<script src="js/ajax.js"></script>
+			<script src="js/header.js"></script>
+			<script src="js/footer.js"></script>
+			<script src="js/teacher.js"></script>
+ </body>
+</html>

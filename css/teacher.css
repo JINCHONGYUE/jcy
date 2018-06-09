@@ -1,0 +1,105 @@
+/*大图*/
+div.teacher{
+	margin:0;
+}
+div.teacher img{
+	width:1200px;
+	height:550px;	
+}
+/*老师介绍文字*/
+.total div.team-itr{
+	display:flex;
+	justify-content:center;
+/*	position: absolute;*/	
+}
+.total div.team-itr ul.team li:first-child{	
+ 	font-size:28px; 
+	font-family:"微软雅黑";
+	color:#FE773B;
+	margin-top:35px;
+}
+ul.team li:nth-child(2){
+	font-size:18px;
+	font-family:"微软雅黑";
+	color:#A1A1A1;
+	margin-top:10px;
+	margin-bottom:15px;
+}
+ul.team li:nth-child(3){
+	width:960px;
+	border-bottom:1px solid #DDDDDD;
+	margin-bottom:35px;
+}
+
+/*老师介绍*/
+.teacher-intr{
+	width:960px;
+	margin:0 auto;
+}
+.teacher-intr li.teacher-intr-odd div:nth-child(2){
+	width:740px;
+}
+.teacher-intr li.teacher-intr-even div:nth-child(2){
+	width:740px;
+}
+ul.teacher-intr li div img{
+	width:195px;
+	height:190px;
+}
+ul.teacher-intr .teacher-intr-odd{
+	display:flex;
+}
+ul.teacher-intr .teacher-intr-even div img{	
+	float:right;
+}
+li.teacher-intr-even div{
+	/* margin-top:20px; */
+	/* display:inline-block; */
+} 
+li.teacher-intr-odd:nth-child(2){
+	 margin-top:50px; 
+	/* display:inline-block; */
+} 
+li.teacher-intr-odd div:nth-child(2){
+	padding-left:15px;
+}
+li.teacher-intr-even div:nth-child(2){
+	padding-right:15px;
+	text-align:right;
+}
+li.teacher-intr-even div:nth-child(2) p:nth-child(3){
+	text-align:left;
+}
+li.teacher-intr-odd div p:first-child{
+	font-size:28px;
+	font-family:"微软雅黑";
+}
+li.teacher-intr-even div p:first-child{
+	font-size:28px;
+	font-family:"微软雅黑";
+} 
+li.teacher-intr-odd div p:nth-child(2){
+	display:block;
+	font-size:20px;
+	padding:5px 0 10px 0;
+}
+li.teacher-intr-even div p:nth-child(2){
+	font-size:20px;
+	padding:5px 0 10px 0;
+}
+li.teacher-intr-odd div p:nth-child(3){
+	font-size:15px;
+	color:#858585;
+}
+li.teacher-intr-even div>p:nth-child(3){
+	font-size:15px;
+	color:#858585;
+} 
+/* 最后一张大图 */
+div.teacher-down img{
+	margin-top:15px;
+	margin-bottom:8px;
+	width:1200px;
+	height:400px;
+}
+ 
